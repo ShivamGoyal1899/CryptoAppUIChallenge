@@ -1,0 +1,33 @@
+name: Crypto
+description: UI Challenge from Alex Arutuynov
+author: Shivam Goyal
+homepage: https://shivamgoyal.co
+repository: https://github.com/ShivamGoyal1899/CryptoAppUIChallenge
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  local_auth: ^0.5.2+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: QuickSand
+      fonts:
+        - asset: assets/fonts/quicksand_bold4.ttf
+        - asset: assets/fonts/quicksand_bold3.ttf
+          weight: 200
+        - asset: assets/fonts/quicksand_bold2.ttf
+          weight: 500
+        - asset: assets/fonts/quicksand_bold1.ttf
+          weight: 900
